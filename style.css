@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    background: #A85D30;
+    padding:15px;
+    overflow: hidden;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+header>div, header ul{
+    display:flex;
+}
+
+header>div{
+    width:100%;
+    margin:auto;    
+}
+
+header>div>a{
+    flex:1;
+}
+
+header h1, header a{
+    color:white;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+ul{
+    margin-top: 20px;
+    list-style: none;
+
+}
+
+header li{
+    margin: 0 15px;
+    margin-top:15px;
+}
+
+li{
+    display: list-item;
+    text-decoration: none;
+}
+
+html, body{
+    font: 10pt/180% 'Noto Sans KR', sans-serit;
+    letter-spacing: -0.2px;
+    min-width: 1300px;
+}
+
+
+/***MAIN***/
+
+div{
+    display: block;
+}
+
+
+main>div>div:nth-of-type(1){
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+
+img{
+   
+    width: 40%;
+ ;
+    object-fit: cover;
+    text-align: center;
+ 
+   
+}
+
+main>div{
+    position: relative;
+    border: 10px solid #ECCCB4;
+    margin-top: 20px;
+    padding-bottom: 45px;
+}
+main p:nth-of-type(1){
+    margin-bottom: 5px;
+}
+main>div>div:nth-of-type(2),main p{
+    text-align: center;
+}
+main span{
+    font-weight: normal;
+    font-style: italic;
+}
+main p{
+    color:#333;
+    font-weight:bold;
+    font-size:1.7em;
+    text-align: center;
+}
+
+/**PROFILE**/
+
+#about{
+    background-color:white;
+    
+}
+#about h2{
+   color: #ECCCB4;
+   text-align: center;
+   font-size:32px;
+}
+
+#school{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size:18px;
+}
+
+#school ul:nth-child(2){
+   padding-left: 20px; 
+}
+
+
+
+.selection_image{
+    background: #ECCCB4;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    padding-bottom: 100px;
+
+}
+
+.thumb{
+    width:30%;
+    height: 400px;
+    overflow: hidden;
+    margin-top:30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main_image{
+    padding-top:30px;
+    background: #ECCCB4;
+   display: flex;
+   justify-content: center;
+
+    
+}
+
+.main_image img{
+    width: 50%;
+}
+
+.thumb img{
+    width:100%
+    
+}
+
+.overlay{
+    background:rgba(0,0,0,0.3);
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+    font-size:18px;
+}
+
+.thumb:hover>.overlay{
+    opacity: 1;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 30px;
+    background:#ECCCB4 ;
+    
+}
