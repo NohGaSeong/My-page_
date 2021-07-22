@@ -6,13 +6,16 @@
 
 header{
     background: #A85D30;
-    padding:15px;
+    padding:15px 50px ;
     overflow: hidden;
     display: block;
+    
+   
 }
 
 a{
     text-decoration: none;
+ 
 }
 header>div, header ul{
     display:flex;
@@ -20,7 +23,8 @@ header>div, header ul{
 
 header>div{
     width:100%;
-    margin:auto;    
+    margin:auto;   
+     
 }
 
 header>div>a{
@@ -31,10 +35,20 @@ header h1, header a{
     color:white;
     font-weight: bold;
     font-size: 1.8em;
+ 
+}
+
+header h3{
+    padding-top: 10px;
+
+}
+
+nav{
+    max-width: 900px;
 }
 
 ul{
-    margin-top: 20px;
+    margin-top: 0px;
     list-style: none;
 
 }
@@ -81,7 +95,7 @@ img{
 main>div{
     position: relative;
     border: 10px solid #ECCCB4;
-    margin-top: 20px;
+    margin-top: 0px;
     padding-bottom: 45px;
 }
 main p:nth-of-type(1){
@@ -90,6 +104,8 @@ main p:nth-of-type(1){
 main>div>div:nth-of-type(2),main p{
     text-align: center;
 }
+
+
 main span{
     font-weight: normal;
     font-style: italic;
@@ -183,10 +199,86 @@ main p{
     opacity: 1;
 }
 
-h2{
+#video{
     text-align: center;
     font-size: 36px;
     padding-top: 30px;
     background:#ECCCB4 ;
     
+}
+
+div{
+    display: block;
+}
+
+
+main>div>div:nth-of-type(1){
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+
+img{
+   
+    width: 40%;
+ ;
+    object-fit: cover;
+    text-align: center;
+ 
+   
+}
+
+
+main>div{
+    position: relative;
+    border: 10px solid #ECCCB4;
+    margin-top: 0px;
+    padding-bottom: 45px;
+}
+main p:nth-of-type(1){
+    margin-bottom: 5px;
+}
+main>div>div:nth-of-type(2),main p{
+    text-align: center;
+}
+main span{
+    font-weight: normal;
+    font-style: italic;
+}
+main p{
+    color:#333;
+    font-weight:bold;
+    font-size:1.7em;
+    text-align: center;
+}
+
+main{
+    background: white;
+}
+
+article{
+    background: white;
+}
+
+#call{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.link{
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+
+}
+
+.link a{
+    flex: 1;    
+    display: flex;
+    justify-content: center;
+
 }
